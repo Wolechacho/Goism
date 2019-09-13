@@ -1,0 +1,19 @@
+Gobs are encoding format for Go specfic applicatio
+Do not use them for communication with external
+client for different laguages,either use JSON or
+Grpc
+
+A buffer is a stream of data that has a temporary
+physical storage
+
+
+Pointer  arguments in method can both accept value receiver and pointer receiver
+
+pointer arguments in function only accepts pointers 
+
+
+add - adds a new task to our list -- POST
+list - lists all of our incomplete tasks -- FETCH based on isDone Field
+do - marks a task as complete -- UPDTAE
+rm - deleted task -- DELETE
+completed - complted task for no of hours -- FETCH based on date saved
